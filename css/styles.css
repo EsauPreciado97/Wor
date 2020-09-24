@@ -37,11 +37,15 @@
 
 
 /* CLASSES */
+.w-100{
+    height: auto;
+}
+
 .blog{
-    font-size: 10px;
-    margin-top: 22px;
-    margin-right: 10px;
-    margin-left: 10px;
+    font-size: 20px;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-top: 6%;
 }
 
 .longTxt{
@@ -50,15 +54,15 @@
 
 .blueSpace{
 
-    background-color: #1560a4;
-    height: 500px;
+    background-color: #000000;
+    height: 620px;
     position: relative;
 }
 
 
 .services-title{
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     font-size: 1.75rem;
     padding-top: 10%;
     font-weight: 900;
@@ -75,8 +79,8 @@
 }
 
 .whiteTxt{
-    text-align: center !important;
-    color: #1560a4 !important; 
+    text-align: justify !important;
+    color: #000000 !important; 
     font-weight: 800 !important; 
     font-size: 13px !important;
     padding-top: 25px;
@@ -84,7 +88,7 @@
 
 .whiteTitle{
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     font-size: 25px;
     font-weight: 800;
     padding-top: 45px;
@@ -133,7 +137,7 @@
 }
 
 .vl{
-    border-left: 1px solid #1560a4;
+    border-left: 1px solid #000000;
     height: 60px;
     margin-top: 0px !important;
     margin-bottom: 4px;
@@ -168,16 +172,16 @@
 .contact-mobile{
     text-align: center;
     margin-top: 0%;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 900;
-    color: #1560a4;
-    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    background-color: rgba(255, 255, 255, 1);
     box-shadow: 2px 2px 3px #000;
     padding-top: 5%;
     position: absolute;
     z-index: 100;
-    width: 80%;
-    left: 10%;
+    width: 90%;
+    left: 5%;
     top: 5%
 }
 
@@ -187,7 +191,7 @@
     margin-top: 5%;
     font-size: 12px;
     font-weight: 900;
-    color: #1560a4;
+    color: #919191;
     background-color: #ffffff;
     box-shadow: 2px 2px 3px #000;
     padding-top: 5%;
@@ -203,10 +207,11 @@
     border-top:     none !important;
     border-left:    none !important;
     border-right:   none !important;
-    border-bottom: 3px solid !important;
-    border-bottom-color: #1560a4 !important;
+    border-bottom: 1px solid !important;
+    border-bottom-color: #919191 !important;
     border-bottom-right-radius: 0%;
-    font-size: 20px !important;
+    font-size: 12px !important;
+    border-radius: 0rem !important;
 }
 
 /* Slider */
@@ -355,6 +360,10 @@
 }
 
 @media (min-width: 768px){
+    .w-100{
+        height: 550px;
+    }
+
     .sldr-img-mobile{
         display: none;
     }
@@ -381,12 +390,15 @@
     }
     .contact-desktop{
         display: block;
-        max-width: 200px;
+        width: 250px;
         margin: auto;
         margin-top: 3%;
         right: 5%;
         padding-top: 2%;
         
+    }
+    .form-control{
+        height: 25px !important;
     }
     .bannerText{
         font-size: 14px;
@@ -394,6 +406,9 @@
     }
     .blueSpace{
         display: none;
+    }
+    .blog{
+        padding-top: 5%;
     }
 }
 
@@ -403,11 +418,14 @@
     } 
     
     .contact-desktop{
-        max-width: 250px;
-        margin-top: 8%;
+        width: 250px;
+        margin-top: 2%;
     }
     .bannerText{
         padding-top: 15%;
+    }
+    .blog{
+        padding-top: 4%;
     }
 }
 
@@ -417,15 +435,23 @@
         padding-top: 10%
     }
     .contact-desktop{
-        font-size: 1.4em;
-        max-width: 365px;
+        width:      360px;
         right:      7%;
+        margin-top: 7%;
+        font-size: 15px;
+
     }   
     .bannerText{
         font-size: 18px;
     }
     .longTxt{
         font-size: 15px;
+    }
+    .w-100{
+        height: auto;
+    }
+    .blog{
+        padding-top: 2%;
     }
 }
 
@@ -434,14 +460,19 @@
         font-size:  50px;
     }  
     .contact-desktop{
-        max-width: 470px;
+        width: 440px;
         margin: auto;
-        margin-top: 10%;
-        font-size: 1.6em;
+        margin-top: 7%;
         padding-top: 2%;
         right: 6%;
-
+        font-size: 20px;
     } 
+    .form-control{
+        font-size: 20px !important;
+        height: 50px !important;
+
+    }
+
     .exception{
         width: 60% !important;
         padding-top: 7%;
@@ -449,7 +480,9 @@
     }
 
     .blog{
-        font-size: 12px;
+        font-size: 20px;
+        margin-right: 10%;
+        padding-left: 10%;
     }
     .mailNav{
         font-size: 12px;
