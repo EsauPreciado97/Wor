@@ -39,6 +39,13 @@
 
 /* CLASSES */
 
+.shift-desktop{
+    display: none;
+}
+.shift-mobile{
+    width: 100%
+}
+
 .form-check-label{
     color: #ff5015;
     font-size: 13px;
@@ -58,10 +65,18 @@
 
 .ubi-title{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
-.office-img{
+.ubi-title h1{
+    font-size: 2rem;
+}
+
+.office-img-1{
+    text-align: center;
+    position: relative;
+}
+.office-img-2{
     text-align: center;
     position: relative;
 }
@@ -381,6 +396,12 @@
         top:     560px;
         right: 0%;
     }
+    .office-img-1{
+        text-align: right;
+    }
+    .office-img-2{
+        text-align: left;
+    }
 
 }
 
@@ -411,6 +432,13 @@
     }
     .white-circle{
         top:     570px;
+    }
+    .shift-desktop{
+        display: initial;
+        width: 50%;
+    }
+    .shift-mobile{
+        display: none;
     }
 }
 
@@ -528,3 +556,51 @@
     }
 }
 
+@font-face {
+    font-family: 'nowmedium';
+    src: url('../Media/Fonts/now.medium-webfont.woff2') format('woff2'),
+         url('../Media/Fonts/now.medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nowblack';
+    src: url('../Media/Fonts/now-black-webfont.woff2') format('woff2'),
+         url('../Media/Fonts/now-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nowbold';
+    src: url('../Media/Fonts/now-bold-webfont.woff2') format('woff2'),
+         url('../Media/Fonts/now-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nowregular';
+    src: url('../Media/Fonts/now-webfont.woff2') format('woff2'),
+         url('../Media/Fonts/now-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: nowbold !important;
+}
