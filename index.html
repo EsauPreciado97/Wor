@@ -76,16 +76,16 @@
                 <div class="form-group">
                     <label for="checks-empresa" style="font-weight: 900;">Tamaño de empresa</label>
                     <div class="form-check" id="checks-empresa">
-                        <input class="form-check-input" type="radio" name="size" id="Radio1" value="1 - 5 empleados">
-                        <label class="form-check-label" for="Radio1">1 - 5 empleados</label>
+                        <input class="form-check-input" type="radio" name="size" id="Radio1" value="1 - 10 empleados">
+                        <label class="form-check-label" for="Radio1">1 - 10 empleados</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="size" id="Radio2" value="5 - 10 empleados">
-                        <label class="form-check-label" for="Radio2">5 - 10 empleados</label>
+                        <input class="form-check-input" type="radio" name="size" id="Radio2" value="10 - 50 empleados">
+                        <label class="form-check-label" for="Radio2">10 - 50 empleados</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="size" id="Radio3" value="Mas de 10 empleados">
-                        <label class="form-check-label" for="Radio3">Más de 10 empleados</label>
+                        <input class="form-check-input" type="radio" name="size" id="Radio3" value="Mas de 50 empleados">
+                        <label class="form-check-label" for="Radio3">Más de 50 empleados</label>
                     </div>
                 </div>
             
@@ -140,10 +140,10 @@
 
         <div class="carousel-item" data-interval="5000">
             <div class="sldr-img-desktop" id="carouselContainer">
-                <img src="./Media/Imagenes/slide2.png" class="d-block w-100" alt="Venta">
+                <img src="./Media/Imagenes/slide2.jpg" class="d-block w-100" alt="Venta">
             </div>
             <div class="sldr-img-mobile">
-                <img src="./Media/Imagenes/slide2.png" class="d-block w-100" alt="Venta">
+                <img src="./Media/Imagenes/slide2.jpg" class="d-block w-100" alt="Venta">
             </div>
             <div class="carousel-caption" style="top:0% !important; left: 0%!important; right: 0%!important;">
                 <div class="container-fluid inside-sldr">
@@ -162,10 +162,10 @@
 
         <div class="carousel-item" data-interval="5000">
             <div class="sldr-img-desktop" id="carouselContainer">
-                <img src="./Media/Imagenes/slide3.png" class="d-block w-100" alt="Venta">
+                <img src="./Media/Imagenes/slide3.jpg" class="d-block w-100" alt="Venta">
             </div>
             <div class="sldr-img-mobile">
-                <img src="./Media/Imagenes/slide3.png" class="d-block w-100" alt="Venta">
+                <img src="./Media/Imagenes/slide3.jpg" class="d-block w-100" alt="Venta">
             </div>
             <div class="carousel-caption" style="top:0% !important; left: 0%!important; right: 0%!important;">
                 <div class="container-fluid inside-sldr">
@@ -216,16 +216,16 @@
                     <div class="form-group">
                         <label for="checks-empresa">Tamaño de empresa</label>
                         <div class="form-check" id="checks-empresa">
-                            <input class="form-check-input" type="radio" name="size" id="Radio1" value="1 - 5 empleados">
-                            <label class="form-check-label" for="Radio1">1 - 5 empleados</label>
+                            <input class="form-check-input" type="radio" name="size" id="Radio1" value="1 - 10 empleados">
+                            <label class="form-check-label" for="Radio1">1 - 10 empleados</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="size" id="Radio2" value="5 - 10 empleados">
-                            <label class="form-check-label" for="Radio2">5 - 10 empleados</label>
+                            <input class="form-check-input" type="radio" name="size" id="Radio2" value="10 - 50 empleados">
+                            <label class="form-check-label" for="Radio2">10 - 50 empleados</label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="size" id="Radio3" value="Mas de 10 empleados">
-                            <label class="form-check-label" for="Radio3">Más de 10 empleados</label>
+                            <label class="form-check-label" for="Radio3">Más de 50 empleados</label>
                         </div>
                         </div>
                 </div>
@@ -387,7 +387,7 @@
 
 <!-- BANNER CASO DE EXITO -->
 
-<div id="carouselDesktop" class="carousel slide desk" data-ride="carousel">
+<div id="carouselTest" class="carousel slide desk" data-ride="carousel">
 
     <div class="carousel-inner">
 
@@ -519,6 +519,16 @@
 
     </div>
 
+    <a class="carousel-control-prev" href="#carouselTest" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="carousel-control-next" href="#carouselTest" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+
 </div>
 
 
@@ -535,9 +545,14 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="align-content: center;">
         <div class="col-sm office-img-1">
-            <img src="./Media/Imagenes/circle1.png" width="60%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            
+            <div class="container">
+
+                <p class="whiteTitle" style="color: #ff5015;">WOR GARZA SADA</p>
+
+                <img src="./Media/Imagenes/circle1.png" width="60%" onclick="openModal();currentSlide(1)" class="hover-shadow">
 
                 <!-- The Modal/Lightbox 1 -->
     
@@ -576,10 +591,16 @@
                     
                     </div>
                 </div>
+            </div>
 
         </div>
         <div class="col-sm office-img-2">
-            <img src="./Media/Imagenes/circle2.png" width="60%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+
+            <div class="container">
+
+                <p class="whiteTitle" style="color: #ff5015;">WOR CENTRO CUAUHTÉMOC</p>
+
+                <img src="./Media/Imagenes/circle2.png" width="60%" onclick="openModal();currentSlide(1)" class="hover-shadow">
 
                 <!-- The Modal/Lightbox 2 -->
 
@@ -619,6 +640,10 @@
                     </div>
                 </div>
 
+
+            </div>
+            
+
         </div>    
     </div>
     <div class="row">
@@ -635,7 +660,7 @@
     <div class="row">
         <div class="col-md f-section" style="text-align: center;">
             <div>
-                <img src="./Media/Imagenes/logo wor bco.png" alt="Wor" height="150px" style="margin-top: 80px">
+                <img src="./Media/Imagenes/logo wor bco.png" alt="Wor" height="220px" style="margin-top: 80px">
             </div>
         </div>
 
@@ -643,9 +668,9 @@
         <div class="col-md f-section" style="text-align: left;">
 
             <div class="media media-footer">
-                <img src="./Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
+                <img src="./Media/Imagenes/location.png" class="mr-3" alt="location" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
-                    <h5 class="mt-0"> </h5>
+                    <h5 class="mt-0" style="color: #ff5015;">Wor Garza Sada</h5>
                         <p style="text-align: left;">
                             Av. Eugenio Garza Sada #3820<br>
                             Piso 8, Torre Micrópolis<br>
@@ -653,6 +678,17 @@
                         </p>
                 </div>
             </div>
+
+
+            <div class="media media-footer" style="margin-top: 0%;">
+                <img src="./Media/Imagenes/phone.png" class="align-self-start mr-3" alt="Telephone" height="70px" style="margin-top: 0px !important">
+                <div class="media-body">
+                        <p style="text-align: left;">
+                            (81) 2140 3700
+                        </p>
+                </div>
+            </div>
+
         </div>
 
         <div class="vl-footer"></div>
@@ -661,14 +697,23 @@
         <div class="col-md f-section" style="text-align: left; padding-left: 5%;">
 
             <div class="media media-footer">
-                <img src="./Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
+                <img src="./Media/Imagenes/location.png" class="mr-3" alt="location" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
-                <h5 class="mt-0"> </h5>
+                <h5 class="mt-0" style="color: #ff5015;">Wor Centro Cuauhtémoc</h5>
                   <p style="text-align: left;">
                       Miguel Hidalgo #330<br>
                       Piso 5, Col. Mirador<br>
                       Monterrey, Nuevo León. 64000.
                   </p>
+                </div>
+            </div>
+
+            <div class="media media-footer" style="margin-top: 0%;">
+                <img src="./Media/Imagenes/phone.png" class="align-self-start mr-3" alt="Telephone" height="70px" style="margin-top: 0px !important">
+                <div class="media-body">
+                        <p style="text-align: left;">
+                            (81) 2140 3700
+                        </p>
                 </div>
             </div>
 

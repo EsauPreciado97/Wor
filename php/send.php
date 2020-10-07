@@ -2,7 +2,7 @@
 if(isset($_POST["nombre"]) && isset($_POST["tel"]) && isset($_POST["ciudad"]) && isset($_POST["empresa"]) && isset($_POST["distribuidor"])  
 
 {
-$to = "mercadotecnia@packlife.mx";
+$to = "phenomenadevelopment@gmail.com";
 $subject = "Mensaje Enviado";
 $contenido .= "Nombre: ".$_POST["nombre"]."\n";
 $contenido .= "Telefono: ".$_POST["tel"]."\n\n\n";

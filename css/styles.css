@@ -39,6 +39,10 @@
 
 /* CLASSES */
 
+.carousel-control-next, .carousel-control-prev {
+    z-index: 100 !important;
+}
+
 .shift-desktop{
     display: none;
 }
@@ -140,7 +144,7 @@
 .whiteTxt{
     text-align: justify !important;
     color: #000000 !important; 
-    font-weight: 800 !important; 
+    font-family: nowregular !important; 
     font-size: 13px !important;
     padding-top: 0px;
 }
@@ -233,6 +237,7 @@
 
 .media{
     padding-left: 0%;
+    align-items: center !important;
 }
 
 .media-footer{
@@ -260,13 +265,12 @@
 .contact-desktop{
     display: none;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 12px;
     font-weight: 500;
     color: #919191;
     background-color: #ffffff;
     box-shadow: 2px 2px 3px #000;
-    padding-top: 5%;
     position: absolute;
     z-index: 100;
 }
@@ -347,8 +351,8 @@
         display: block;
         width: 250px;
         margin: auto;
-        margin-top: 3%;
-        right: 5%;
+        margin-top: 2%;
+        right: 6%;
         padding-top: 2%;
         
     }
@@ -397,10 +401,10 @@
         right: 0%;
     }
     .office-img-1{
-        text-align: right;
+        text-align: center;
     }
     .office-img-2{
-        text-align: left;
+        text-align: center;
     }
 
 }
@@ -448,8 +452,8 @@
         padding-top: 10%
     }
     .contact-desktop{
-        width:      360px;
-        right:      7%;
+        width:      430px;
+        right:      8%;
         margin-top: 7%;
         font-size: 15px;
 
@@ -489,11 +493,11 @@
         font-size:  50px;
     }  
     .contact-desktop{
-        width: 440px;
+        width: 560px;
         margin: auto;
         margin-top: 7%;
         padding-top: 2%;
-        right: 6%;
+        right: 8%;
         font-size: 20px;
     } 
     .form-control{
@@ -522,7 +526,7 @@
     .vl-footer {
         top: 19%;
         left: 60%;
-        height: 150px;
+        height: 270px;
     }
     .media p {
         font-size: 15px !important;
