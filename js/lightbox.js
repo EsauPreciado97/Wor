@@ -1,4 +1,4 @@
-// Open the Modal 1
+// Open the Modal
 
 var currentModal;
 var sliderClass;
@@ -11,7 +11,7 @@ function openModal(modalID) {
     document.getElementById(modalID).style.display = "block";
 }
 
-// Close the Modal 1
+// Close the Modal
 function closeModal(modalID) {
   sliderClass = '';
   document.getElementById(modalID).style.display = "none";
