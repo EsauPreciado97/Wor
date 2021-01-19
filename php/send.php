@@ -1,8 +1,8 @@
 <?php
-if(isset($_POST["nombre"]) && isset($_POST["tel"]) && isset($_POST["email"]) && isset($_POST["empresa"]) && isset($_POST["sede"]) && isset($_POST["size"]) 
+if(isset($_POST["nombre"]) && isset($_POST["tel"]) && isset($_POST["email"]) && isset($_POST["empresa"]) && isset($_POST["sede"]) && isset($_POST["size"])) 
 
 {
-$to = "info@wor.mx";
+$to = "diego_gracia96@hotmail.com";
 $subject = "Mensaje Enviado";
 $contenido .= "Nombre: ".$_POST["nombre"]."\n";
 $contenido .= "Telefono: ".$_POST["tel"]."\n\n\n";
